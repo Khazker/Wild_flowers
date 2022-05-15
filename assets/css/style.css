@@ -51,7 +51,7 @@ input {
 }
 
 .icon-excel-menu {
-  background-image: url("/assets/images/close-menu.png");
+  background-image: url("assets/images/close-menu.png");
   background-repeat : no-repeat;
   background-size: contain;
   padding-left : 20px;
@@ -243,7 +243,7 @@ form {
 }
 
 .icon-excel {
-  background-image: url("/assets/images/vector-close.png");
+  background-image: url("assets/images/vector-close.png");
   background-repeat : no-repeat;
   background-size: contain;
   padding-left : 20px;
