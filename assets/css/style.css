@@ -51,7 +51,7 @@ input {
 }
 
 .icon-excel-menu {
-  background-image: url("assets/images/close-menu.png");
+  background-image: url("../images/close-menu.png");
   background-repeat : no-repeat;
   background-size: contain;
   padding-left : 20px;
@@ -243,7 +243,7 @@ form {
 }
 
 .icon-excel {
-  background-image: url("assets/images/vector-close.png");
+  background-image: url("../images/vector-close.png");
   background-repeat : no-repeat;
   background-size: contain;
   padding-left : 20px;
@@ -279,7 +279,7 @@ form {
 }
 
 .form-btn {
-  background-color: #69766D; /* Green */
+  background-color: #69766D; 
   border: none;
   color: white;
   padding: 18px 41px;
@@ -314,7 +314,7 @@ h1 {
 }
 
 .btn-now {
-  background-color: #69766D; /* Green */
+  background-color: #69766D; 
   border: none;
   color: white;
   padding: 18px 41px;
