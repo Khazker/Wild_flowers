@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/27b0fc4a46.js" crossorigin="anonymous"></script>
+  <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>Wild Flowers</title>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-inner">
+        <button class="nav_toggle" id="open-menu" type="button">
+          <span class="nav_toggle-item"></span>
+        </button>
+            <div class="header-logo">
+              <img src="/assets/images/logo.png" alt="" class="logo">
+            </div>
+
+          <nav class="nav" id="nav">
+            <div class="container-nav">
+              <button class="btn btn-close-menu" id="close-menu">
+                <i class="icon-excel-menu" ></i>
+              </button>
+
+              <div class="header-logo-white">
+                <img src="/assets/images/logo-white.png" alt="" class="logo">
+              </div>
+              
+              <a class="nav_link nav_link-first text-decoration-none text-reset" href="#">Букеты</a>
+              <a class="nav_link text-decoration-none text-reset" href="#">Отзывы</a>
+              <a class="nav_link text-decoration-none text-reset" href="#">Доставка и оплата</a>
+              <a class="nav_link text-decoration-none text-reset" href="#">Контакты</a>
+            
+              <div class="social-header">
+                <div class="border-social-item">
+                  <a class="social-item" href="#" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </div>
+                <div class="border-social-item">
+                  <a class="social-item" href="#" target="_blank">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                  </a>
+                </div>
+                <div class="border-social-item">
+                  <a class="social-item" href="#" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+                <div class="border-social-item">
+                  <a class="social-item" href="#" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </div>
+              </div> <!--/.social-->
+            </div>
+            
+          </nav>
+          
+            <div class="header-phone">
+              <a href="" class="phone">
+                <img src="/assets/images/icon-call.png" alt="" >
+              </a>
+              <span class="number-phone">+7 (960) 210-22-33</span>
+            </div>
+      </div> <!--/.head_inner-->
+    </div> <!--/.container-->
+    
+  </header>
+
+  <!-- FORM -->
+  <div class="form-answer" id="form-pop-up">
+    <div class="container-form">
+      <form class="form-position" method="post" id="form-body">
+        <button class="btn btn-close" id="close-form">
+          <i class="icon-excel" ></i>
+        </button>
+        <img src="/assets/images/ellips.png" alt="" class="form-pic">
+        <p class="name-form">Обратный звонок</p>
+        <div class="area">
+          <label for="name-person" class="agree-chek">*Имя</label><br>
+          <input class="enter" id="name-person" type="text" name="fio" placeholder="Николай">
+        </div>
+        <div class="area">
+          <label for="phone-person" class="agree-chek">*Телефон</label><br>
+          <input class="enter" id="phone-person" type="text" name="email">
+        </div>
+        <p class="agree">*Нажимая кнопку “Оставить заявку”, я даю согласие на обработку данных.</p><br>
+        
+        <input class="btn form-btn" type="submit" value="Отправить заявку">
+      </form>
+    </div> <!--/.container-form-->
+  </div>
+
+  <!-- INTRO -->
+  <div class="intro" id="intro">
+    <div class="container">
+      <div class="row row-cols-lg-3 row-cols-md-3">
+        <div class="col-lg-7 col-md-6">
+          <div class="description">
+            <div>
+              <img src="/assets/images/ellips.png" alt="" class="ellips">
+            </div>
+            <h1>Цветы для самых любимых</h1>
+            <div class="description-fl">Каждый день мы создаем новую композицию из свежих, сезонных цветов</div>
+            <button class="btn btn-now" id="open-form">Заказать сейчас</button>
+          </div>
+        </div>
+        <div class="col col-md-5">
+          <img src="/assets/images/center-photo.jpg" alt="" class="center-photo">
+        </div>
+        <div class="col-lg-1 col-md-1">
+          <div class="social">
+            <div class="border-social-item">
+              <a class="social-item" href="#" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+            <div class="border-social-item">
+              <a class="social-item" href="#" target="_blank">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </a>
+            </div>
+            <div class="border-social-item">
+              <a class="social-item" href="#" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+            <div class="border-social-item">
+              <a class="social-item" href="#" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div> <!--/.social-->
+        </div> <!--/.col-md-1-->
+      </div> <!--/.row-->
+    </div> <!--/.container-->
+  </div> <!--/.intro-->
+
+  <!-- KNOULEGE -->
+  <div class="known">
+    <div class="container">
+      <h2 class="decore-h2"> 5 шагов к авторскому букету</h2>
+    </div> <!--/.container-->
+  </div>
+
+  <!-- DETAILS -->
+  <div class="details">
+    <div class="container">
+      <div class="row row-cols-lg-5 row-cols-md-5 row-cols-sm-3 justify-content-center">
+        <div class="col-12">
+          <div class="div-vec">
+            <img src="/assets/images/vector-up.png" alt="" class="vector-up">
+          </div>
+          <div class="item-detals">
+            <img src="/assets/images/order.png" alt="" class="icon-chain">
+            <div class="h-chain">Заказ</div>
+            <div class="text-chain">Выберите букет и оформите заказ</div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="div-ves">
+            <img src="/assets/images/vector-down.png" alt="" class="vector-down">
+          </div>
+          <div class="item-detals">
+            <img src="/assets/images/call.png" alt="" class="icon-chain">
+            <div class="h-chain">Детали</div>
+            <div class="text-chain">Мы вам перезвоним в течение 10 минут и уточним детали</div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="div-vec">
+            <img src="/assets/images/vector-up.png" alt="" class="vector-up">
+          </div>
+          <div class="item-detals">
+            <img src="/assets/images/money.png" alt="" class="icon-chain">
+            <div class="h-chain">Оплата</div>
+            <div class="text-chain">Оплатите онлайн или при получении</div>
+          </div> 
+        </div>
+        <div class="col-12 col-sm-4">
+            <div class="div-ves">
+              <img src="/assets/images/vector-down.png" alt="" class="vector-down">
+            </div><div class="item-detals">
+            <img src="/assets/images/flowers.png" alt="" class="icon-chain">
+            <div class="h-chain">Сборка и упаковка</div>
+            <div class="text-chain">Соберем букет с учетом ваших пожеланий и упакуем для доставки</div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4">
+          <img src="/assets/images/car.png" alt="" class="icon-chain icon-chain-last">
+          <div class="h-chain last">Доставка</div>
+          <div class="text-chain">Курьер позвонит за час и доставит букет во время</div>
+        </div>
+      </div>
+    </div> <!--/.container-->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+</body>
+<script src="/assets/js/main.js"></script>
+</html>
