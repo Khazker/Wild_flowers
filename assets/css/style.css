@@ -236,7 +236,7 @@ form {
 
 .btn-close {
   margin-top: 40px;
-  margin-bottom: -50px;
+  margin-bottom: 15px;
   position: relative;
   left: 100%;
   
@@ -260,7 +260,8 @@ form {
 .form-pic {
   width: 155px;
   height: 91px;
-  margin-left: -30px;
+  margin-left: -80px;
+  margin-top: 20px;
 }
 
 .name-form {
